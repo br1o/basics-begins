@@ -1,0 +1,32 @@
+/*
+Theme Name: Beyond Basics
+Theme URI: http://basics.4design.tl
+Description: Child theme for WordPress Basics
+Author: Bruno Bichet
+Author URI: http://4design.tl
+Template: basics
+Version: 0.5.1
+*/
+
+/**
+ * Import HTML5 Boilerplate normalize.css from Basics.
+ */
+@import "../basics/css/normalize.css";
+
+/**
+ * Import HTML5 Boilerplate main1.css from Basics
+ * (1rst part of h5bp's main.css).
+ */
+@import "../basics/css/main1.css";
+
+/**
+ * Import author.css. from Beyond Basics.
+ */
+@import "css/author.css";
+
+/**
+ * Import main2.css from Basics
+ * (2nd part of h5bp's main.css).
+ * Helper classes from HTML5 Boilerplate.
+ */
+@import "../basics/css/main2.css";
